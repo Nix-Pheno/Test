@@ -6,7 +6,7 @@ print(present)
 
 i = 1
 
-for i in range(6):
+for i in range(200):
     new = 'Muhehehehe'+ str(i)
     f_path = os.path.join(present, new)
     os.mkdir(f_path)
